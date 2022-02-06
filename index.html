@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home ToDoList</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <div class="overlay">
+            <header class="main-header">
+                <img src="img/logo.png" alt="logo">
+                <nav>
+                    <ul class="main-nav">
+                        <li class="maribo"><a href="#">Maribo</a></li>
+                        <li class="marielyst"><a href="#">Marielyst</a></li>
+                        <li class="nykobingf"><a href="#">Nykøbing F</a></li>
+                        <li class="nysted"><a href="#">Nysted</a></li>
+                        <li class="norrealslev"><a href="#">Nørre Alslev</a></li>
+                    </ul>
+                </nav>
+                <h1>ToDoList</h1>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+                <nav class="burger-nav">
+                    <ul class="burger-ul">
+                        <li class="maribo" id="maribo"><a href="#">Maribo</a></li>
+                        <li class="marielyst" id="marielyst"><a href="#">Marielyst</a></li>
+                        <li class="nykobingf" id="nykobingf"><a href="#">Nykøbing F</a></li>
+                        <li class="nysted" id="nysted"><a href="#">Nysted</a></li>
+                        <li class="norrealslev" id="norrealslev"><a href="#">Nørre Alslev</a></li>
+                    </ul>   
+                </nav>
+            </header>
+
+            <div class="container-form">
+                <form class="form">
+                    <input type="text" class="input-form" placeholder="Indsæt opgaver her...">
+                    <input type="submit" value="Tilføj opgave" class="submit-form">
+                    <button class="clear-form">Ryd liste</button>
+                </form>
+            </div>
+
+            <h2 class="h2-worktodo">Arbejdsopgaver</h2>
+
+            <div class="container-list">
+                <ul class="itemlist">
+
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="javascript/main.js"></script>
+</html>
